@@ -24,6 +24,12 @@
   animation: pulse 1.5s infinite;
 }
 
+.my-heading {
+  color: #dc2626;
+  background-color: #1a202c;
+  text-align: center;
+}
+
 @keyframes pulse {
   0%,
   100% {
