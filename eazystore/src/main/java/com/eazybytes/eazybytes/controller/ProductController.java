@@ -3,6 +3,8 @@ package com.eazybytes.eazybytes.controller;
 import com.eazybytes.eazybytes.dto.ProductDto;
 import com.eazybytes.eazybytes.service.IproductService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -20,9 +22,10 @@ public class ProductController {
 
 
     @GetMapping
-    public List<ProductDto> getProducts() {
+    public ResponseEntity<List<ProductDto>> getProducts() {
 
          List<ProductDto> products = iproductService.getProducts();
-        return products;
+
+        return ResponseEntity.ok().body(products);
     }
 }

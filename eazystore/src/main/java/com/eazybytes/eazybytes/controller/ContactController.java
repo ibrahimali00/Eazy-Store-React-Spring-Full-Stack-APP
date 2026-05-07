@@ -4,7 +4,10 @@ import com.eazybytes.eazybytes.dto.ContactDto;
 import com.eazybytes.eazybytes.dto.ProductDto;
 import com.eazybytes.eazybytes.service.IContactService;
 import com.eazybytes.eazybytes.service.IproductService;
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -18,14 +21,12 @@ public class ContactController {
 
 
     @PostMapping
-    public String saveContact(@RequestBody ContactDto contactDto) {
+    public ResponseEntity<String> saveContact (@Valid @RequestBody   ContactDto contactDto) {
 
-         boolean isSaved = iContactService.saveContact(contactDto);
-        if(isSaved){
-            return "Request processed successfully";
-        } else {
-            return "An Error occured. please try again or contact our dev team";
+         iContactService.saveContact(contactDto);
 
-        }
+         return ResponseEntity.status(HttpStatus.CREATED)
+                    .body( "Request processed successfully");
+
     }
 }

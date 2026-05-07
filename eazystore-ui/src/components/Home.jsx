@@ -27,8 +27,10 @@ export async function productsLoader() {
     return response.data;
   } catch (error) {
     throw new Response(
-      error.message1 || 'Failed to fetch products. Please try again.',
-      { status: error.status1 || 500 },
+      error.response?.data?.errorMessage ||
+        error.message ||
+        'Failed to fetch products. Please try again.',
+      { status: error.status || 500 },
     );
   }
 }

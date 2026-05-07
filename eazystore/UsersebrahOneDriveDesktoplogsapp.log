@@ -1,0 +1,78 @@
+2026-05-06T14:28:08.936+03:00  INFO 31316 --- [eazybytes] [restartedMain] c.e.eazybytes.EazybytesApplication       : Starting EazybytesApplication using Java 25.0.2 with PID 31316 (C:\Users\ebrah\OneDrive\Desktop\Eazy-Store-React-Spring-Full-Stack-APP\eazystore\target\classes started by ebrah in C:\Users\ebrah\OneDrive\Desktop\Eazy-Store-React-Spring-Full-Stack-APP\eazystore)
+2026-05-06T14:28:08.937+03:00  INFO 31316 --- [eazybytes] [restartedMain] c.e.eazybytes.EazybytesApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-05-06T14:28:09.323+03:00  INFO 31316 --- [eazybytes] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-06T14:28:09.333+03:00  INFO 31316 --- [eazybytes] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 2 JPA repository interfaces.
+2026-05-06T14:28:09.415+03:00  INFO 31316 --- [eazybytes] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-05-06T14:28:09.431+03:00  INFO 31316 --- [eazybytes] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 490 ms
+2026-05-06T14:28:09.471+03:00  INFO 31316 --- [eazybytes] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-05-06T14:28:09.491+03:00  INFO 31316 --- [eazybytes] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@64136daf
+2026-05-06T14:28:09.491+03:00  INFO 31316 --- [eazybytes] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-05-06T14:28:09.493+03:00  INFO 31316 --- [eazybytes] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-06T14:28:09.495+03:00  INFO 31316 --- [eazybytes] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-05-06T14:28:09.501+03:00  INFO 31316 --- [eazybytes] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-06T14:28:09.505+03:00  INFO 31316 --- [eazybytes] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 9.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-06T14:28:09.556+03:00  INFO 31316 --- [eazybytes] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-06T14:28:09.556+03:00  INFO 31316 --- [eazybytes] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-06T14:28:09.632+03:00  WARN 31316 --- [eazybytes] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-06T14:28:09.790+03:00  INFO 31316 --- [eazybytes] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-05-06T14:28:09.794+03:00  INFO 31316 --- [eazybytes] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/eazystore/actuator'
+2026-05-06T14:28:09.829+03:00  INFO 31316 --- [eazybytes] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-05-06T14:28:09.834+03:00  INFO 31316 --- [eazybytes] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-06T14:28:09.834+03:00  INFO 31316 --- [eazybytes] [restartedMain] c.e.eazybytes.EazybytesApplication       : Started EazybytesApplication in 0.942 seconds (process running for 35.054)
+2026-05-06T14:28:09.835+03:00  WARN 31316 --- [eazybytes] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-05-06T14:28:09.835+03:00  WARN 31316 --- [eazybytes] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-05-06T14:28:09.836+03:00  INFO 31316 --- [eazybytes] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-05-06T14:28:09.840+03:00  INFO 31316 --- [eazybytes] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-05-06T14:28:09.843+03:00  INFO 31316 --- [eazybytes] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-06T14:28:09.844+03:00  INFO 31316 --- [eazybytes] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-05-06T14:28:09.856+03:00  INFO 31316 --- [eazybytes] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2026-05-06T14:28:12.848+03:00  INFO 30568 --- [eazybytes] [restartedMain] c.e.eazybytes.EazybytesApplication       : Starting EazybytesApplication using Java 25.0.2 with PID 30568 (C:\Users\ebrah\OneDrive\Desktop\Eazy-Store-React-Spring-Full-Stack-APP\eazystore\target\classes started by ebrah in C:\Users\ebrah\OneDrive\Desktop\Eazy-Store-React-Spring-Full-Stack-APP\eazystore)
+2026-05-06T14:28:12.850+03:00  INFO 30568 --- [eazybytes] [restartedMain] c.e.eazybytes.EazybytesApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-05-06T14:28:12.896+03:00  INFO 30568 --- [eazybytes] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-06T14:28:12.896+03:00  INFO 30568 --- [eazybytes] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-06T14:28:13.877+03:00  INFO 30568 --- [eazybytes] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-06T14:28:13.931+03:00  INFO 30568 --- [eazybytes] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 2 JPA repository interfaces.
+2026-05-06T14:28:14.490+03:00  INFO 30568 --- [eazybytes] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-05-06T14:28:14.502+03:00  INFO 30568 --- [eazybytes] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-06T14:28:14.502+03:00  INFO 30568 --- [eazybytes] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-05-06T14:28:14.544+03:00  INFO 30568 --- [eazybytes] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-05-06T14:28:14.545+03:00  INFO 30568 --- [eazybytes] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1648 ms
+2026-05-06T14:28:14.751+03:00  INFO 30568 --- [eazybytes] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-06T14:28:15.040+03:00  INFO 30568 --- [eazybytes] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1e92f85c
+2026-05-06T14:28:15.042+03:00  INFO 30568 --- [eazybytes] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-06T14:28:15.069+03:00  INFO 30568 --- [eazybytes] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-06T14:28:15.106+03:00  INFO 30568 --- [eazybytes] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.39.Final
+2026-05-06T14:28:15.139+03:00  INFO 30568 --- [eazybytes] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-05-06T14:28:15.433+03:00  INFO 30568 --- [eazybytes] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-06T14:28:15.516+03:00  INFO 30568 --- [eazybytes] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 9.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-06T14:28:16.246+03:00  INFO 30568 --- [eazybytes] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-06T14:28:16.249+03:00  INFO 30568 --- [eazybytes] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-06T14:28:16.521+03:00  WARN 30568 --- [eazybytes] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-06T14:28:17.095+03:00  INFO 30568 --- [eazybytes] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-05-06T14:28:17.100+03:00  INFO 30568 --- [eazybytes] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/eazystore/actuator'
+2026-05-06T14:28:17.202+03:00  INFO 30568 --- [eazybytes] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-05-06T14:28:17.212+03:00  INFO 30568 --- [eazybytes] [restartedMain] c.e.eazybytes.EazybytesApplication       : Started EazybytesApplication in 4.716 seconds (process running for 5.238)
+2026-05-06T14:28:17.217+03:00  WARN 30568 --- [eazybytes] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-05-06T14:28:17.218+03:00  WARN 30568 --- [eazybytes] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-05-06T14:28:17.816+03:00  INFO 30568 --- [eazybytes] [RMI TCP Connection(1)-192.168.1.9] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-06T14:28:17.819+03:00  INFO 30568 --- [eazybytes] [RMI TCP Connection(1)-192.168.1.9] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-06T14:28:17.822+03:00  INFO 30568 --- [eazybytes] [RMI TCP Connection(1)-192.168.1.9] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-05-06T14:30:12.349+03:00  INFO 30568 --- [eazybytes] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-06T14:30:12.355+03:00  INFO 30568 --- [eazybytes] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-05-06T14:30:12.360+03:00  INFO 30568 --- [eazybytes] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-06T14:30:12.363+03:00  INFO 30568 --- [eazybytes] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-06T14:30:12.383+03:00  INFO 30568 --- [eazybytes] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

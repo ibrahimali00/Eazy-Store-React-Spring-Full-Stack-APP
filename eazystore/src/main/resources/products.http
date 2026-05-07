@@ -1,2 +1,52 @@
+POST http://localhost:8080/api/v1/contacts
+Content-Type: application/json
+
+{
+  "name": "ali",
+  "email": "ali@test.com",
+  "mobileNumber": "123456789",
+  "message": "send me some help please"
+}
+
+###
+POST http://localhost:8080/api/v1/dummy/request-entity?name=ali&age=88&gender=male
+Content-Type: application/json
+
+{
+  "name": "Ibrahim Ali",
+  "email": "hima@ali.com",
+  "mobileNumber": "121212121212"
+}
+
+###
+GET http://localhost:8080/api/v1/dummy/header
+Accept: application/json
+
+
+###
+GET http://localhost:8080/api/v1/dummy/user/1555
+
+
+###
+GET http://localhost:8080/api/v1/dummy/multi-search?firstName=Ali&lastName=ibrahim
+
+
+###
+GET http://localhost:8080/api/v1/dummy/search?name=Ali
+
+
+
+
+###
+POST http://localhost:8080/api/v1/dummy/create-user
+Content-Type: application/json
+
+{
+  "name": "Ibrahim Ali",
+  "email": "hima@ali.com",
+  "mobileNumber": "121212121212"
+}
+
+###
 ### GET ALL PRODUCTS
 GET http://localhost:8080/api/v1/products
