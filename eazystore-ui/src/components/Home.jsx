@@ -8,8 +8,6 @@ export default function Home() {
   const location = useLocation();
   const username = location.state;
   const pathName = location.pathname;
-  console.log(username);
-  console.log(pathName);
   return (
     <div className="max-w-[1152px] mx-auto px-6 py-8">
       <PageHeading title="Explore Eazy Stickers!">

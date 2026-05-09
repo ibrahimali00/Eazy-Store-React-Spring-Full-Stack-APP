@@ -5,10 +5,13 @@ import {
   faSun,
   faMoon,
 } from '@fortawesome/free-solid-svg-icons';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useContext } from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import { useCart } from '../store/cart-context';
 
 export default function Header() {
+  const { totalQuantity } = useCart();
+
   const [theme, setTheme] = useState(() => {
     return localStorage.getItem('theme') === 'dark' ? 'dark' : 'light';
   });
@@ -92,11 +95,14 @@ export default function Header() {
               </NavLink>
             </li>
             <li>
-              <Link to="/cart" className="text-primary py-2">
+              <Link to="/cart" className="text-primary py-2 relative">
                 <FontAwesomeIcon
                   icon={faShoppingBasket}
-                  className="dark:text-light"
+                  className="dark:text-light text-primary w-6"
                 />
+                <div className="absolute -top-2 -right-6 text-xs bg-yellow-400 text-black font-semibold rounded-full px-2 py-1 leading-none">
+                  {totalQuantity || 0}
+                </div>
               </Link>
             </li>
           </ul>
